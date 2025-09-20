@@ -9,7 +9,7 @@ function strip(article) {
             strip(a).localeCompare(strip(b))
         );
 
-        const ul = document.getElementById("list-Container");
+        const ul = document.getElementById("band");
 
         function dynamicLists() {
             const tempDom = document.createDocumentFragment()
